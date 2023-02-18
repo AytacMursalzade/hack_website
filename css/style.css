@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    height: 110px;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+.flex_container{
+    width: 70%;
+    height: 110px;
+    display: flex;
+    margin-left: 212px;
+    background-color: #F5F5F5;
+    
+}
+.flex_container img{
+    width: 64px;
+    height: auto;
+    padding-top: 16px;
+}
+.nav_flex ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+    margin-top: 7px;
+    font-size: large;
+    
+}
+.nav_flex ul li button{
+    width: 145px;
+    height: 45px;
+    background-color: rgb(108, 25, 42);
+    color: antiquewhite;
+    font-size: large;
+    font-weight: 300px;
+    border-radius: 10px;
+    border: 1px solid rgb(108, 25, 42);
+}
+.nav_flex ul li button:hover{
+    background-color: aquamarine;
+    cursor: progress;
+}
+.nav_flex a{
+    list-style-type: none;
+    color: black;
+
+}
+.nav_flex a:hover{
+    list-style-type: none;
+    color: rgb(162, 92, 92);
+    
+}
+.nav_qutu {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px; 
+}
+.nav_qutu img{
+    width: 140px;
+    padding-bottom: 24px;
+}
+.container_flex{
+    width: 100%;
+    min-height: 500px;
+    box-sizing: border-box;
+    
+    
+}
+.flex_main{
+    background-image: url(../img/ain_menu.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.flex_main h1{
+    font-weight: 600;
+    font-size: 35px;
+    z-index: 1;
+    color: #fefafa;
+    text-shadow: 1px 2px  rgb(166, 190, 142);
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
